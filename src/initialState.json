@@ -1,0 +1,9 @@
+{
+	"PopulateDrones": {},
+	"userDetails": {
+		"auth": false,
+		"user": {}
+	},
+	"RentedUsers":{}, 
+	"errors": []
+}

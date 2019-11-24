@@ -1,0 +1,133 @@
+h1 {
+    font-size: 100px;
+    line-height: 1;
+}
+
+h1, h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+
+.station_header h3{
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+  font-size:75px;
+  margin: 0;
+ 
+}
+
+.logout {
+  position: relative;
+  float: right;
+  bottom: 35px;
+  right: 0px;
+}
+
+header {
+  padding:10px;
+}
+
+
+.station_grid {
+  display: grid; 
+  grid-template-columns: repeat(4,1fr); 
+  grid-template-rows:repeat(3,1fr);
+}
+
+.drone-item {
+  padding: 15px;
+}
+
+label {
+  padding:5px;
+}
+input{
+  padding:5px;
+  margin:2px;
+}
+
+
+form { 
+  display: inline;
+  padding: 0em 1em;
+
+}
+
+ .btn {
+    color: #F7FFF7;
+    background: #2F3061;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+
+  }
+
+.btn:hover {
+    background: rgba(47, 48, 97, 80%);
+  }
+
+  .countdown h2{
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    font-size:75px;
+    margin: 4%;
+    text-align: center;
+  }
+
+  .countdown h1{
+    text-align: center;
+  }
+
+  /* Contact Info
+------------------------------------*/
+footer {
+    background: #007e58;
+    color: rgb(247, 248, 255); 
+  }
+  .contact-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .contact-list a {
+    padding: 15px;
+    display: inline-block;
+  }
+  
+  
+  /* Responsive
+  ------------------------------------*/
+  @media screen and (min-width:750px){
+    header, footer {
+      text-align: center;
+    }
+   
+    .contact-list {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
+  @media screen and (max-width:749px){
+    h1 {
+      font-size: 75px;
+      line-height: 0.9;
+      margin-bottom: 20px;
+    }
+    h2 {
+      line-height: 1;
+    }
+    .contact-list a {
+      padding: 5px;
+    }
+
+    .station_grid {
+      display: grid; 
+      grid-template-columns: repeat(2,1fr); 
+      grid-template-rows:repeat(5,1fr);
+    }
+    
+  }
+  
+  
